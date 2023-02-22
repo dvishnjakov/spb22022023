@@ -18,7 +18,7 @@ class ParticipantFactory extends Factory
     public function definition(): array
     {
         return [
-            'name'     => $this->faker->unique()->lastName,
+            'name'     => $this->faker->unique()->name,
         ];
     }
 }
